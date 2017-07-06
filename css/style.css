@@ -1,3 +1,9 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,800);
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 /* NAVBAR
 -------------------------------------------------- */
 .navbar-wrapper {
@@ -43,14 +49,58 @@
 }
 
 /*PROYECTO*/
-#proyectos{
+#project{
   background-image: url(../images/home/1.jpg);
-  background-origin: border-box;
+  background-position: right;
+  background-origin: content-box;
   background-repeat: no-repeat;
-  height: 100%;
-  width: 100%;
-  
+  background-size: cover;
+  background-color: #008BFA; 
 }
+.box-project{
+  color: white;
+}
+.box-project h1{
+  font-size: 8rem;
+  padding-top: 62px;
+}
+
+/*CALENDARIO*/
+.calendario-title{
+  color: red;
+}
+
+/*CONTACT*/
+#contact{
+  padding: 8px 0px;
+  background-color: black;
+}
+ul.social-network {	
+  margin: 0;
+  margin-left:0;
+  padding-left: 0;
+  list-style: none;
+}
+ul.social-network li {
+  display: inline;
+  margin: 5px 5px;
+}
+ul.social-network li a:hover span .fa-circle {
+  color: gray;
+}
+.icon-social-facebook{
+  color:#1F4B7E
+}
+.icon-social-twitter{
+  color: #2AA1AF;
+}
+.icon-social-instagram{
+  color: #3A5F93;
+}
+.icon-social-pinterest{
+  color:#BB070E;
+}
+
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 
